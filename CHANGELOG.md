@@ -7,6 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+---
+
+## [2.1.1] - 2026-01-29
+
+### Changed
+- **文档结构优化**：精简"注意事项"部分，消除重复内容
+  - 将注意事项重构为"核心原则 + 实施细节引用"
+  - 删除与工作流程重复的详细说明
+  - 通过链接引用工作流程中的详细内容
+  - 遵循DRY原则（Don't Repeat Yourself）
+  - 保持单一信息源，便于后续维护
+
+### Documentation
+- 精简"注意事项"部分，从原来的4个子章节（对话风格、对话节奏、元认知与方向调整、总结与行动）精简为3个子章节（核心原则、实施细节、Emoji使用）
+- 通过链接引用避免重复，提高文档可维护性
+
+---
+
+## [2.1.0] - 2026-01-29
+
 ### Changed
 - **对话节奏优化**：基于用户反馈优化对话交互机制
   - 首轮开场：保持1位成员开场，建立对话基础
@@ -25,11 +45,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - "我觉得我们好像问得有点深了，你觉得呢？"
     - "要不要换个角度看这个问题？"
     - "我们可以继续深入，也可以先看看大方向，你更想聊哪个？"
+- **CHANGELOG.md**：独立的版本变更记录文件
 
 ### Documentation
 - 更新 `SKILL.md` 工作流程部分，详细说明对话节奏控制
 - 新增"元认知与方向调整"章节，指导成员如何温和引导对话方向
 - 更新"注意事项"部分，强调"一次一个问题"和"深度优于广度"原则
+- 从SKILL.md分离版本历史到CHANGELOG.md
 
 ---
 
@@ -283,7 +305,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-[Unreleased]: https://github.com/yourusername/twice-thinking/compare/v2.0.1...HEAD
+[Unreleased]: https://github.com/yourusername/twice-thinking/compare/v2.1.1...HEAD
+[2.1.1]: https://github.com/yourusername/twice-thinking/compare/v2.1.0...v2.1.1
+[2.1.0]: https://github.com/yourusername/twice-thinking/compare/v2.0.1...v2.1.0
 [2.0.1]: https://github.com/yourusername/twice-thinking/compare/v2.0.0...v2.0.1
 [2.0.0]: https://github.com/yourusername/twice-thinking/compare/v1.11.0...v2.0.0
 [1.11.0]: https://github.com/yourusername/twice-thinking/compare/v1.10.0...v1.11.0
