@@ -9,6 +9,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.1.2] - 2026-01-30
+
+### Changed
+- **用户主动要求其他成员发言时的节奏控制**：
+  - 明确规定：即使用户说"想听其他成员的意见"，也必须遵守1-3人限制
+  - 采用轮换机制：理解为"接下来几轮优先让之前较少发言的成员参与"，而不是一次性让所有人说话
+  - 支持点名：用户可以具体指定想听哪几位成员，但仍遵守1-3人限制
+  - 保持对话节奏：分批轮换，避免信息过载和长篇大论
+
+### Fixed
+- 修复了用户主动要求其他成员发言时，系统会让所有成员一次性输出导致对话失控的问题
+- 确保对话始终符合真实对话场景，每轮对话长度可控
+
+### Documentation
+- 在"对话节奏"部分新增"用户主动要求其他成员发言时"的详细规则
+- 明确说明轮换机制和点名支持的具体实施方式
+
+---
+
 ## [2.1.1] - 2026-01-29
 
 ### Changed
@@ -305,7 +324,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-[Unreleased]: https://github.com/yourusername/twice-thinking/compare/v2.1.1...HEAD
+[Unreleased]: https://github.com/yourusername/twice-thinking/compare/v2.1.2...HEAD
+[2.1.2]: https://github.com/yourusername/twice-thinking/compare/v2.1.1...v2.1.2
 [2.1.1]: https://github.com/yourusername/twice-thinking/compare/v2.1.0...v2.1.1
 [2.1.0]: https://github.com/yourusername/twice-thinking/compare/v2.0.1...v2.1.0
 [2.0.1]: https://github.com/yourusername/twice-thinking/compare/v2.0.0...v2.0.1
