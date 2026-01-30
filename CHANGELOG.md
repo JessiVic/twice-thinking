@@ -9,6 +9,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.1.3] - 2026-01-30
+
+### Changed
+- **文档结构精简**：移除独立的 MBTI 性格档案文档
+  - 删除 `references/mbti-profiles.md` 文件
+  - 所有 MBTI 相关信息已整合到各成员描述中
+  - 移除"参考资源"部分对 MBTI 文档的引用
+  - 保持单一信息源，避免维护多个文档
+
+### Removed
+- `references/mbti-profiles.md` - MBTI 性格档案文档（内容已整合到 SKILL.md）
+
+---
+
 ## [2.1.2] - 2026-01-30
 
 ### Changed
@@ -324,7 +338,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-[Unreleased]: https://github.com/yourusername/twice-thinking/compare/v2.1.2...HEAD
+[Unreleased]: https://github.com/yourusername/twice-thinking/compare/v2.1.3...HEAD
+[2.1.3]: https://github.com/yourusername/twice-thinking/compare/v2.1.2...v2.1.3
 [2.1.2]: https://github.com/yourusername/twice-thinking/compare/v2.1.1...v2.1.2
 [2.1.1]: https://github.com/yourusername/twice-thinking/compare/v2.1.0...v2.1.1
 [2.1.0]: https://github.com/yourusername/twice-thinking/compare/v2.0.1...v2.1.0
