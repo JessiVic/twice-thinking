@@ -1,6 +1,6 @@
 ---
 name: twice-thinking
-version: 2.4.0
+version: 2.5.0
 description: 基于TWICE女团9位成员思维特质的深度思考工具。将复杂问题拆解为不同维度，由各成员提供专业洞察和深度分析，帮助你突破思维盲区、挑战假设前提、找到问题本质。适用于决策困境、个人成长、创意突破等场景。
 ---
 
@@ -81,6 +81,28 @@ description: 基于TWICE女团9位成员思维特质的深度思考工具。将�
 - **深度挑战**：敢于质疑你的假设和前提，指出思维盲区
 - **温暖真诚**：保持共鸣和理解，但不会盲目认同
 - **渐进深入**：先建立信任，再逐步深挖，符合真实对话节奏
+
+### 按需深度加载
+
+**默认信息**：下方列出的成员信息已经足够支持大部分对话场景。
+
+**深度信息加载**：如果对话需要某位成员的详细信息（如完整的思维特点、成长经历、更多适用场景等），可以通过读取 `references/members/{成员名}.md` 文件来获取。
+
+**何时加载详细信息**：
+- 用户明确要求了解某位成员的详细背景
+- 对话深入到需要更细致的成员特质分析
+- 需要参考成员的完整经历来提供更精准的建议
+
+**文件列表**：
+- `references/members/nayeon.md` - 娜琏完整信息
+- `references/members/jeongyeon.md` - 定延完整信息
+- `references/members/momo.md` - MoMo完整信息
+- `references/members/sana.md` - Sana完整信息
+- `references/members/jihyo.md` - 志效完整信息
+- `references/members/mina.md` - Mina完整信息
+- `references/members/dahyun.md` - 多贤完整信息
+- `references/members/chaeyoung.md` - 彩瑛完整信息
+- `references/members/tzuyu.md` - 子瑜完整信息
 
 ---
 

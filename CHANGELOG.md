@@ -9,6 +9,42 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.5.0] - 2026-02-05
+
+### Added - 按需深度加载机制：优化上下文管理
+- **新增成员详细信息文件**：
+  - 从 v2.2.0 版本中恢复了 9 个成员的完整信息文件
+  - 存放在 `references/members/` 目录下
+  - 包含每位成员的完整思维特点、成长经历、详细适用场景等
+
+- **按需加载机制**：
+  - SKILL.md 中保留简洁的成员信息（核心定位、思维模式、专业能力、典型洞察、核心场景）
+  - 当需要更详细的成员信息时，可以按需读取 `references/members/{成员名}.md`
+  - 明确了何时需要加载详细信息的三种场景
+
+- **文件列表**：
+  - `references/members/nayeon.md` - 娜琏完整信息
+  - `references/members/jeongyeon.md` - 定延完整信息
+  - `references/members/momo.md` - MoMo完整信息
+  - `references/members/sana.md` - Sana完整信息
+  - `references/members/jihyo.md` - 志效完整信息
+  - `references/members/mina.md` - Mina完整信息
+  - `references/members/dahyun.md` - 多贤完整信息
+  - `references/members/chaeyoung.md` - 彩瑛完整信息
+  - `references/members/tzuyu.md` - 子瑜完整信息
+
+### Changed
+- **目录结构优化**：
+  - 将成员详细信息文件放在 `references/members/` 而不是独立的 `members/` 目录
+  - 与其他参考资源（PDF、framework）保持在同一层级，结构更清晰
+
+### Technical
+- 节省默认上下文空间，同时保留获取完整信息的能力
+- 支持更长的对话轮次和更深入的分析
+- 按需加载机制使系统更灵活高效
+
+---
+
 ## [2.4.0] - 2026-02-02
 
 ### Changed - 对话输出结构重大优化：从"提问为主"到"洞察为主"
