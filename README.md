@@ -1,4 +1,4 @@
-# TWICE-THINKING
+# twice-thinking
 
 基于TWICE女团9位成员思维特质的深度思考工具。将复杂问题拆解为不同维度，由各成员提供专业洞察和深度分析，帮助你突破思维盲区、挑战假设前提、找到问题本质。
 
@@ -37,7 +37,7 @@
 1. 克隆此仓库到你的 Claude skills 目录：
 ```bash
 cd ~/.claude/skills
-git clone https://github.com/JessiVic/TWICE-THINKING.git twice-thinking
+git clone https://github.com/JessiVic/twice-thinking.git twice-thinking
 ```
 
 2. 在 Claude Code 中使用：
